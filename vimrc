@@ -17,3 +17,5 @@ if has("autocmd")
   filetype plugin indent on
 endif
 
+map <F2> :NERDTreeToggle<CR>
+
