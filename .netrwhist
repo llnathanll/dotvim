@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/nathan/Downloads/xfc-4.6.0/CMakeFiles'
+let g:netrw_dirhist_2='/home/nathan/Ruby/Sinatra/Upn/helpers'
+let g:netrw_dirhist_3='/home/nathan/Ruby/Sinatra/Upn/helpers_app/views'
+let g:netrw_dirhist_4='/home/nathan/Ruby/Sinatra/Upn/examples'
+let g:netrw_dirhist_5='/home/nathan/Ruby/Sinatra/Upn/framework/app'
