@@ -1,15 +1,19 @@
 Installation:
 
-    git clone git://github.com/llnathanll/dotvim.git
+   -  git clone git://github.com/llnathanll/dotvim.git
+   -  Rename the cloned directory as desired
+   -  Create symlinks
+   -  ln -s ~/dotvimfiles/vimrc ~/.vimrc
+   -  ln -s ~/dotvimfiles/gvimrc ~/.gvimrc
 
-Install Vim plugins as git submodules:
+Installing Vim Plugins:
+
+    cd dotvimfiles/plugins
+    clone plugin repository
+
+Installing Colorschemes:
     
-    cd dotvimfiles
-    git submodule init
-    git submodule update
-
-Create symlinks:
+    install colorscheme to plugin directory
+    create symlink in colors/ to plugins/colorscheme/colorscheme.vim
     
-    ln -s ~/dotvimfiles/vimrc ~/.vimrc
-    ln -s ~/dotvimfiles/gvimrc ~/.gvimrc
-
+   

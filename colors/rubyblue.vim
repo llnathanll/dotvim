@@ -1,0 +1,1 @@
+../bundle/rubyblue/colors/rubyblue.vim
