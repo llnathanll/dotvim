@@ -2,9 +2,8 @@
 " created 09-14-12
 "
 
-"not using submodules
-"call pathogen#runtime_append_all_bundles()
-"call pathogen#helptags()
+call pathogen#incubate()
+call pathogen#helptags()
 
 execute pathogen#infect()
 
